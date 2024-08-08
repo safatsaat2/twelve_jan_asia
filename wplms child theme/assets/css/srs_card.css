@@ -1,0 +1,274 @@
+
+
+
+
+.srs_card_pr_tr {
+    padding: 16px;
+    border: 1px solid #eeeef0;
+    box-shadow: 0px 1px 2px 0px #0000000d;
+    border-radius: 8px;
+  }
+  .srs_card_pr_tr:hover{
+    box-shadow: 0px 4px 6px -4px #0000001A;
+
+box-shadow: 0px 10px 15px -3px #0000001A;
+
+  }
+  .srs_card_pr_tr .srs_img_wrapper {
+    position: relative;
+  }
+  .srs_card_pr_tr .srs_img_wrapper img {
+    border-radius: 4px;
+  }
+  .srs_card_pr_tr .srs_img_wrapper .srs_cat {
+
+    border-radius: 4px;
+    padding: 2px 8px;
+    color: #fff;
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+  }
+  .srs_card_pr_tr .srs_img_wrapper .srs_cat.cat-background-technology{
+    background: #694098;
+  }
+  .srs_card_pr_tr .srs_img_wrapper .srs_cat.cat-background-business{
+    background: #4379BC;
+  }
+  .srs_card_pr_tr .srs_img_wrapper .srs_cat.cat-background-photography-2{
+    background: #F7CE0E;
+  }
+  .srs_card_pr_tr .srs_img_wrapper .srs_cat ul{
+      display: flex;
+      align-items: center;
+  }
+  .srs_card_pr_tr .srs_img_wrapper .srs_cat ul i {
+font-size: 5px;
+padding-right: 5px;
+  }
+  .srs_card_pr_tr .srs_img_wrapper .srs_cat ul li a{
+
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+  }
+  .srs_card_pr_tr .srs_content_wrapper {
+    margin-top: 11px;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_first_part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_first_part > div {
+    display: flex;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_first_part .srs_rating p {
+    color: #64667c;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_first_part .srs_review p {
+    color: #64667c;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_sec_part h5 a{
+    color: #252847;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 8px 0 24px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 57px; /* This Height can be changed based on the demand */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* This Number can be changed based on the demand */ 
+    -webkit-box-orient: vertical;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_third_part {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_third_part div {
+    padding: 2px 8px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background: #eef9f6;
+    border-radius: 50px;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_third_part div p {
+    font-family: "Roboto", sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3c8874;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_fourth_part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #c9c9d1;
+    border-bottom-style: dashed;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_fourth_part div {
+    /* padding: 2px 8px; */
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_fourth_part div p {
+    font-family: "Roboto", sans-serif !important;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7c7e91;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part {
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_price {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_price h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #252847;
+    
+  }
+  .srs_card_pr_tr
+    .srs_content_wrapper
+    .srs_card_fifth_part
+    .srs_price
+    h5
+    span {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_price del span {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f51500;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_price del{
+    color: #f51500;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_btn a{
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color:#EE4166;
+text-decoration: none;
+padding: 12px 0px;
+background: transparent;
+transition: all .3s ease-out;
+  }
+  .srs_card_pr_tr:hover .srs_content_wrapper .srs_card_fifth_part .srs_btn a{
+    padding: 12px 16px;
+    background: #EE4166;
+    color: #fff;
+    border-radius: 
+50px;
+  }
+  .srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_btn a i{
+    font-size: 24px;
+  }
+  
+  .srs_card_pr_tr h5{
+margin: 0 ;
+}
+.srs_card_pr_tr p{
+margin: 0;
+}
+.srs_card_pr_tr .srs_content_wrapper .srs_card_first_part .srs_rating {
+display: flex;
+align-items: center;
+gap: 5px;
+
+}
+.srs_card_pr_tr .srs_content_wrapper .srs_card_first_part .srs_rating  i{
+color:#F7CE0E;
+}
+.srs_card_pr_tr .srs_content_wrapper .srs_card_first_part div{
+gap: 5px;
+}
+.srs_card_pr_tr .srs_content_wrapper .srs_card_third_part i{
+color:#3C8874;
+font-size: 10px;
+}
+.srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_btn i{
+font-size: 16px !important;
+padding-left: 5px;
+}
+.srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_price del{
+opacity: 1;
+}
+.srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_price .subs{
+  display: none;
+}
+.srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_price strong{
+  display: flex;
+  align-items: end;
+  gap: 8px;
+}
+.srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_price strong ins{
+order: 0;
+}
+.srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_price  span{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #252847;
+}
+.srs_card_pr_tr .srs_content_wrapper .srs_card_fifth_part .srs_price strong del{
+order: 1;
+}
